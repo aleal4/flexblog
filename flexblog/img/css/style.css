@@ -355,7 +355,7 @@ img {
   font-family: "Nunito", Helvetic, Arial, sans-sarif;
   border: 4px solid #2c70ff;
   background: transparent;
-  padding: 10px;
+  padding: 15px 10px;
   margin: 0px;
   border-radius: 0px;
 }
@@ -374,4 +374,24 @@ img {
   padding: 15px 10px;
 }
 
+@media (max-width: 600px) {
+  .newsletter-form button {
+    font-size: 1.5em;
+  }
+}
+
 /* Footer */
+
+.footer {
+  display: flex;
+  background: #2c70ff;
+  height: 200px;
+  align-items: center;
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+  font-size: 2.25em;
+  color: #122ab2;
+}
